@@ -14,7 +14,7 @@
 *   **API:** Linux Raw Sockets (`AF_PACKET`)
 *   **Tools:** GCC, Make, Ioctl
 
-##  Сборка и запуск
+## Сборка и запуск
 
 ### Системные требования
 Для работы требуются заголовочные файлы Linux и права суперпользователя.
@@ -25,6 +25,10 @@ sudo apt-get install build-essential
 ### Компиляция
 ```bash
 gcc main.c -o arpspoofer
+```
+или
+```bash
+make
 ```
 
 ### Запуск
